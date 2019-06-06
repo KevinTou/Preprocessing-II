@@ -14,9 +14,22 @@ header {
 
     @media @tablet-mobile {
       flex-direction: column;
+      padding: 2rem 0;
+    }
+
+    @media @mobile {
+      padding-bottom: 1rem;
     }
 
     h1 {
+      @media @tablet-mobile {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+      }
+
+      @media @mobile {
+        padding-left: 1.6rem;
+      }
     }
 
     nav {
@@ -27,6 +40,12 @@ header {
 
       @media @tablet-mobile {
         width: 80%;
+      }
+
+      @media @tablet-mobile {
+        width: 85%;
+        justify-content: space-between;
+        padding: 0.3rem 0 0 3rem;
       }
 
       a {
