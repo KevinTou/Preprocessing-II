@@ -1,3 +1,12 @@
+.btn {
+  background-color: #008080;
+  color: #ffffff;
+  border-radius: 15px;
+  width: 83%;
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 1.3rem 0;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -169,7 +178,7 @@ img {
   margin: 0 auto;
 }
 header {
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 header .navigation {
   display: flex;
@@ -191,7 +200,7 @@ header .navigation nav a {
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #ffebcd;
 }
 .footer p {
   text-align: center;
@@ -200,7 +209,7 @@ header .navigation nav a {
   padding: 20px;
 }
 .home .header-section {
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .header-section .header-text {
   padding: 2rem 0 1rem;
@@ -224,7 +233,7 @@ header .navigation nav a {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -243,7 +252,7 @@ header .navigation nav a {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
 }
