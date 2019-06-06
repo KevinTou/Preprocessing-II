@@ -47,6 +47,10 @@
     width: 75%;
     margin: 0 auto 30px;
 
+    @media @tablet-mobile {
+      width: 100%;
+    }
+
     img {
       border-radius: 10px;
     }
@@ -56,11 +60,19 @@
     padding-top: 30px;
     border-top: 2px dashed @navigation-border;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
+    @media @tablet-mobile {
+      flex-wrap: wrap;
+    }
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media @tablet-mobile {
+        width: 45%;
+      }
 
       .btn {
         .button-styles(#008080, @white);
